@@ -14,6 +14,7 @@
   --fw--bold: 700;
 
   --color--black: #090909;
+  --color--grey: grey;
   --color--black--navbar:#0E0E0E;
 
 }
@@ -209,7 +210,7 @@ p {
 
 .recent--article__body {
   line-height: 125%;
-  color:#505050;
+  color:var(--color--grey);
 }
 
 .recent--article__date {
